@@ -1,0 +1,56 @@
+.full{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background:url("https://source.unsplash.com/random/1920x1080/?${city}"),linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) center/cover ;
+}
+.pretendard{
+    font-family: Pretendard;
+}
+.main_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 120px;
+    transform: translate(-50%,-50%);
+}
+header{
+    position: absolute;
+    top: 0%;
+    height: 70px;
+    color: white;
+}
+.weather_icon{
+    width: 80px;
+    position: absolute;
+    top: 39%;
+    left: 56%;
+}
+.view_info{
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    color: white;
+}
+.view_info p {
+    margin: 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+
+}
+.login_menu{
+    font-size: 21px;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
